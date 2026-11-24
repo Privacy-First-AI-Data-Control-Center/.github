@@ -1,6 +1,8 @@
 <div align="center">
 
-# 🛡️ Privacy-First AI Data Control Center
+<img src="https://raw.githubusercontent.com/Privacy-First-AI-Data-Control-Center/.github/main/profile/logo.svg" alt="Privacy-First AI Data Control Center Logo" width="96" height="96" />
+
+# Privacy-First AI Data Control Center
 
 **Real-time local privacy guardrails, secret redaction & cloud governance for AI coding assistants**
 
@@ -16,7 +18,7 @@
 
 ### 🎯 What We Build
 
-AI coding agents (**Claude Code**, **Cursor**, **Antigravity**, **Gemini CLI**) accelerate software engineering—but without local guardrails, a single tool call can read `.env` credentials, private SSH keys, or NDA-protected customer data.
+AI coding agents (**Claude Code**, **Cursor**, **Antigravity**, **Gemini CLI**) accelerate software engineering—but without local guardrails, a single tool call can read environment secrets, private SSH keys, or NDA-protected customer data.
 
 **Privacy-First AI Data Control Center** solves this with a two-layer open-core architecture:
 - **💻 On-Device Guard (`local-agent`):** Evaluates `PreToolUse` hooks in **< 5ms**, blocks unauthorized file/command execution before it happens, redacts sensitive tokens locally, and buffers events in an offline `node:sqlite` queue. **Raw file contents never leave the laptop.**
